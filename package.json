@@ -1,0 +1,43 @@
+{
+  "name": "anthologievr-myst",
+  "version": "0.0.1",
+  "description": "WebVR experience based on the anthologia palatina transcriptions/translations",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "acorn": "^6.1.0",
+    "aframe": "^0.9.0",
+    "aframe-environment-component": "^1.1.0",
+    "aframe-extras": "^5.0.1",
+    "aframe-extras.ocean": "^5.0.1",
+    "aframe-physics-system": "^3.3.0",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/index.js -o dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PookMook/anthologieVR-myst.git"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-vr",
+    "vr",
+    "mozvr",
+    "webvr",
+    "master",
+    "umontreal",
+    "udem"
+  ],
+  "author": "Arthur Juchereau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PookMook/anthologieVR-myst/issues"
+  },
+  "homepage": "https://github.com/PookMook/anthologieVR-myst#readme"
+}
